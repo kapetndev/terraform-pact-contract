@@ -1,4 +1,4 @@
-# terraform-pact-contract
+# terraform-pact-contract ![terraform](https://github.com/StatusCakeDev/terraform-pact-contract/workflows/terraform/badge.svg?event=push)
 
 Contract testing is a way to ensure that services (such as an API
 provider and a client) can communicate with each other. Without contract
