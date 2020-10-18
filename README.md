@@ -1,7 +1,14 @@
 # terraform-pact-contract
 
-This README outlines the details of collaborating on this terraform
-configuration. A short introduction of this repo could easily go here.
+Contract testing is a way to ensure that services (such as an API
+provider and a client) can communicate with each other. Without contract
+testing, the only way to know that services can communicate is by using
+expensive and brittle integration tests.
+
+This module creates two Pact Broker webhooks enabling both an API consumer to
+invoke verification tests within the API provider CI pipeline, and for those
+verification results to trigger a success/failure within the API consumer
+build.
 
 ## Prerequisites
 
