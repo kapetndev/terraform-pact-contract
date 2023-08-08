@@ -1,4 +1,4 @@
-# terraform-pact-contract
+# terraform-pact-contract ![policy](https://github.com/kapetndev/terraform-pact-contract/workflows/policy/badge.svg)
 
 Contract testing is a software testing methodology that verifies software
 components behave as defined by a contract between them. Unlike using expensive
