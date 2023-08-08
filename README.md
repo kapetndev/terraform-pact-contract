@@ -38,6 +38,11 @@ module "my_contract" {
 }
 ```
 
+## Examples
+
+- [consumer-provider-pact](examples/consumer-provider-pact) - Create webhooks
+  for a single consumer and provider pact.
+
 ## Requirements
 
 | Name | Version |
